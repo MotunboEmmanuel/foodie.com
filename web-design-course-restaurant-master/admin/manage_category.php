@@ -1,0 +1,50 @@
+<?php include('partials/menu.php'); ?>
+       <div class="main-content">
+          <div class="wrapper">
+              <h1>Manage Category</h1>
+              <br />
+              <a href="#" class="btn-add">Add Category</a>
+              <br /> <br /><br />
+
+             <table class="tbl-full">
+                <tr>
+                    <th>S.N.</th>
+                    <th>Fullname</th>
+                    <th>Username</th>
+                    <th>Actions</th>
+                </tr>
+
+                <tr>
+                    <td>1.</td>
+                    <td>John Deo</td>
+                    <td>johndeo</td>
+                    <td>
+                        <a href="#" class="btn-secondary">Update Admin</a>
+                        <a href="#" class="btn-primary">Delete Admin</a>
+                    </td>
+                </tr>
+
+                  <tr>
+                    <td>1.</td>
+                    <td>John Deo</td>
+                    <td>johndeo</td>
+                    <td>
+                        <a href="#" class="btn-secondary">Update Admin</a>
+                        <a href="#" class="btn-primary">Delete Admin</a>
+                    </td>
+
+
+                  <tr>
+                    <td>1.</td>
+                    <td>John Deo</td>
+                    <td>johndeo</td>
+                    <td>
+                        <a href="#" class="btn-secondary">Update Admin</a>
+                        <a href="#" class="btn-primary">Delete Admin</a>
+                    </td>
+            </table>
+
+           
+              <div class="clearfix"></div>
+       </div> 
+<?php include('partials/footer.php'); ?>
